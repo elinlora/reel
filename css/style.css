@@ -220,7 +220,7 @@ nav ul li a i {
 
 @media only screen and (min-width: 62em) {
   .hero .container {
-    padding: 4.5em 0 21em;
+    padding: 6em 0 21em;
   }
 }
 
@@ -265,5 +265,55 @@ nav ul li a i {
   .hero-buttons {
     align-items: flex-start;
     margin-top: 2em;
+  }
+}
+
+.social-proof {
+  background-color: var(--clr-primary-600);
+  padding: 2.1em 0;
+  text-align: center;
+}
+
+.social-proof .container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 2.1em;
+}
+
+.social-proof-review:nth-of-type(2),
+.social-proof-review:nth-of-type(3) {
+  display: none;
+}
+
+@media only screen and (min-width: 48em) {
+  .social-proof-review:nth-of-type(2),
+  .social-proof-review:nth-of-type(3) {
+  display: block;
+}
+}
+
+.social-proof-img {
+  width: 9rem;
+}
+
+@media only screen and (min-width: 62em) {
+  .social-proof-img {
+    width: 12rem;
+  }
+  .social-proof-review:nth-of-type(2) .social-proof-img {
+    width: 21rem;
+  }
+}
+
+.social-proof-body {
+  font-size: var(--fs-100);
+  font-weight: 500;
+  margin-top: .7em;
+}
+
+@media only screen and (min-width: 62em) {
+  .social-proof-body {
+    font-size: var(--fs-200);
   }
 }
