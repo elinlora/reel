@@ -88,12 +88,57 @@ header .container {
   cursor: pointer;
 }
 
+@media only screen and (min-width: 62em) {
+  .hamburger {
+    display: none;
+  }
+}
+
 .reel-logo {
   width: 4.5rem;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media only screen and (min-width: 62em) {
+  .reel-logo {
+    position: unset;
+    top: unset;
+    left: unset;
+    transform: unset;
+    width: 6rem;
+  }
+}
+
+nav {
+  display: none;
+}
+
+@media only screen and (min-width: 62em) {
+  nav {
+    display: block;
+    margin-right: auto;
+    margin-left: 3em;
+  }
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+nav ul li a {
+  color: var(--clr-primary-400);
+  font-weight: 500;
+  font-size: var(--fs-400);
+}
+
+nav ul li a i {
+  font-size: 1rem;
+  margin-left: .5em;
 }
 
 .cart {
@@ -103,4 +148,17 @@ header .container {
   padding: .4em 1.2em;
   border: 3px solid var(--clr-primary-400);
   border-radius: 1.5rem;
+}
+
+.user {
+  width: 2.7rem;
+  margin-left: 1em;
+  cursor: pointer;
+  display: none;
+}
+
+@media only screen and (min-width: 62em) {
+  .user {
+    display: block;
+  }
 }
