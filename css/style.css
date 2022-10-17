@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+input:focus {
+  outline: none;
+}
+
+input,
+button {
+  border: none;
+}
+
+:root {
+
+  --clr-primary-400: #243f50;
+  --clr-primary-500: #2f4e60;
+  --clr-primary-600: #7babc8;
+  --clr-primary-700: #a3c8e0;
+
+  --clr-neutral-400: #f0e9e7;
+
+  /* 13px 16px 18px 22px 24px 34px 50px 66px 72px*/
+  --fs-100: .8rem; 
+  --fs-200: 1rem; 
+  --fs-300: 1.125rem; 
+  --fs-400: 1.375rem;
+  --fs-500: 1.5rem;
+  --fs-600: 2.125rem;
+  --fs-700: 3.125rem;
+  --fs-800: 4.125rem;
+  --fs-900: 4.5rem;
+
+  --ff-primary: 'Montserrat', sans-serif;
+
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100%;
+  font-family: var(--ff-primary);
+}
