@@ -84,6 +84,12 @@ body {
   border-radius: 2rem;
 }
 
+.btn:hover,
+.btn:focus {
+  background-color: #fff;
+  color: var(--clr-primary-400);
+}
+
 header {
   padding: 1em 0;
   position: sticky;
@@ -151,6 +157,11 @@ nav ul li a {
   font-size: var(--fs-400);
 }
 
+nav ul li a:hover,
+nav ul li a:focus {
+  text-decoration: underline var(--clr-primary-400) 3px;
+}
+
 nav ul li a i {
   font-size: 1rem;
   margin-left: .5em;
@@ -165,11 +176,22 @@ nav ul li a i {
   border-radius: 1.5rem;
 }
 
+.cart:hover,
+.cart:focus {
+  background-color: var(--clr-primary-400);
+  color: #fff;
+}
+
 .user {
   width: 2.7rem;
   margin-left: 1em;
   cursor: pointer;
   display: none;
+}
+
+.user:hover,
+.user:focus {
+  opacity: 75%;
 }
 
 @media only screen and (min-width: 62em) {
