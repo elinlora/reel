@@ -76,12 +76,13 @@ body {
   display: inline-block;
   background-color: var(--clr-primary-400);
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
   font-size: var(--fs-100);
   letter-spacing: 1.5px;
   color: #fff;
   padding: 1.2em 4.5em; 
   border-radius: 2rem;
+  transition: all .3s ease-in-out;
 }
 
 .btn:hover,
@@ -174,6 +175,7 @@ nav ul li a i {
   padding: .4em 1.2em;
   border: 3px solid var(--clr-primary-400);
   border-radius: 1.5rem;
+  transition: all .3s ease-in-out;
 }
 
 .cart:hover,
@@ -316,4 +318,49 @@ nav ul li a i {
   .social-proof-body {
     font-size: var(--fs-200);
   }
+}
+
+.two-col {
+  padding: 4em 0 0;
+  background-color: var(--clr-neutral-400);
+}
+
+.two-col-img-container {
+  border-radius: 2rem;
+  padding: 18rem 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.two-col-1 .two-col-img-container  {
+  background-image: url('/img/content-1.png');
+}
+
+.two-col-2 .two-col-img-container {
+  background-image: url('/img/content-2.png');
+}
+
+.two-col-text-cta {
+  background-color: #fff;
+  border-radius: 2rem;
+  width: 90%;
+  margin: 0 auto;
+  padding: 2em;
+  z-index: 1;
+  transform: translateY(-13%);
+}
+
+.two-col-heading {
+  font-size: var(--fs-500);
+}
+
+.two-col-body {
+  font-size: var(--fs-200);
+  font-weight: 500;
+  margin-top: 1em;
+  line-height: 1.5;
+}
+
+.two-col-text-cta .btn {
+  margin-top: 1.5em;
 }
