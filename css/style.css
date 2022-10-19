@@ -653,3 +653,8 @@ nav ul li a i {
   background-color: unset;
   border: 2px solid var(--clr-primary-400);
 }
+
+.customer-reviews {
+  padding: 2em 0;
+  background-color: var(--clr-neutral-400);
+}
