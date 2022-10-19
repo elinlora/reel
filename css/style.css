@@ -502,3 +502,136 @@ nav ul li a i {
     font-size: var(--fs-200);
   }
 }
+
+.products {
+  padding: 3em 0;
+  background-color: #fff;
+}
+
+.products-title-cta {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.products-title-cta h2 {
+  font-size: var(--fs-500);
+  line-height: 1.4;
+}
+
+.products-title-cta a {
+  font-size: var(--fs-100);
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--clr-primary-400);
+  padding-bottom: 1em;
+  border-bottom: 4.5px solid var(--clr-primary-600);
+}
+
+.product-items {
+  margin-top: 6em;
+  display: flex;
+  align-items: center;
+  gap: 4.5em;
+  justify-content: space-between;
+  overflow-x: scroll;
+}
+
+.product {
+  display: flex;
+  width: 15rem;
+  min-width: 15rem;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: 1em;
+}
+
+@media only screen and (min-width: 62em) {
+  .product {
+    width: 24rem;
+    min-width: 24rem;
+  }
+}
+
+.product-img {
+  width: 13rem;
+  align-self: center;
+}
+
+@media only screen and (min-width: 62em) {
+  .product-img {
+    width: 20rem;
+  }
+}
+
+.product-title-price {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+.product-title {
+  font-size: var(--fs-300);
+  line-height: 1.4;
+  width: 52%;
+}
+
+.product-price {
+  font-size: var(--fs-200);
+  font-weight: 500;
+}
+
+.product-amount {
+  font-size: var(--fs-100);
+  font-weight: 500;
+  margin-top: 1em;
+}
+
+.product-stars-reviews {
+  display: flex;
+  margin-top: 1em;
+}
+
+.product-stars i {
+  font-size: 1.2rem;
+}
+
+.product-reviews {
+  font-size: var(--fs-100);
+  margin-left: .5em;
+}
+
+.product .btn {
+  width: 100%;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+.four-ellipsis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .7em;
+  margin-top: 1em;
+}
+
+@media only screen and (min-width: 62em) {
+  .four-ellipsis {
+    margin-top: 3em;
+  }
+}
+
+.dot {
+  height: .6rem;
+  width: .6rem;
+  border-radius: 50%;
+  background-color: var(--clr-primary-400);
+  cursor: pointer;
+}
+
+.dot.selected {
+  height: .75rem;
+  width: .75rem;
+  background-color: unset;
+  border: 2px solid var(--clr-primary-400);
+}
