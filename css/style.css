@@ -658,3 +658,58 @@ nav ul li a i {
   padding: 2em 0;
   background-color: var(--clr-neutral-400);
 }
+
+.review-card {
+  height: 24rem;
+  width: 24rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  background-color: #fff;
+}
+
+.review-card-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.review-title {
+  font-size: var(--fs-300);
+  margin-top: 1.2em;
+}
+
+.review-body {
+  font-size: var(--fs-200);
+  font-weight: 500;
+  line-height: 1.5;
+  width: 18rem;
+  margin: 1em auto 0;
+}
+
+.reviewer {
+  font-size: var(--fs-100);
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-top: 1em;
+}
+
+.review-card-ellipsis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5em;
+  position: absolute;
+  bottom: 1em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.green-leaf {
+  position: absolute;
+  bottom: -2em;
+  right: 1em;
+}
