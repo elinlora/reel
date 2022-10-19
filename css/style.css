@@ -508,6 +508,12 @@ nav ul li a i {
   background-color: #fff;
 }
 
+@media only screen and (min-width: 62em) {
+  .products {
+    padding: 4.5em 0;
+  }
+}
+
 .products-title-cta {
   display: flex;
   align-items: flex-start;
@@ -519,6 +525,12 @@ nav ul li a i {
   line-height: 1.4;
 }
 
+@media only screen and (min-width: 62em) {
+  .products-title-cta h2 {
+    font-size: var(--fs-600);
+  }
+}
+
 .products-title-cta a {
   font-size: var(--fs-100);
   font-weight: 500;
@@ -528,8 +540,14 @@ nav ul li a i {
   border-bottom: 4.5px solid var(--clr-primary-600);
 }
 
+@media only screen and (min-width: 62em) {
+  .products-title-cta a {
+    font-size: var(--fs-200);
+  }
+}
+
 .product-items {
-  margin-top: 6em;
+  margin-top: 4.5em;
   display: flex;
   align-items: center;
   gap: 4.5em;
