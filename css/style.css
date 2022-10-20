@@ -350,7 +350,7 @@ nav ul li a i {
 
 .two-col-1 .container,
 .two-col-2 .container {
-  max-width: 75rem;
+  max-width: 80rem;
 }
 
 @media only screen and (min-width: 48em) {
@@ -438,7 +438,7 @@ nav ul li a i {
 }
 
 .four-col .container {
-  max-width: 75rem;
+  max-width: 80rem;
   padding: 3em 0;
   border-top: 1px solid #000;
   display: grid;
