@@ -235,6 +235,7 @@ nav ul li a i {
   .hero-heading {
     font-size: var(--fs-700);
     width: 50%;
+    margin-top: 1em;
   }
 }
 
@@ -655,7 +656,7 @@ nav ul li a i {
 }
 
 .customer-reviews {
-  padding: 2em 0;
+  padding: 3em 0;
   background-color: var(--clr-neutral-400);
   position: relative;
 }
@@ -840,5 +841,59 @@ nav ul li a i {
 @media only screen and (min-width: 62em) {
   .green-leaf-cut {
     display: block;
+  }
+}
+
+.zero {
+  background-image: url('/img/content-banner.png');
+  background-size: cover;
+  background-position: center;
+  padding: 3em 0;
+  text-align: center;
+  color: #fff;
+}
+
+@media only screen and (min-width: 62em) {
+  .zero {
+    padding: 4.5em 0;
+  }
+}
+
+.zero-heading {
+  font-size: var(--fs-600);
+  line-height: 1.4;
+  width: 70%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 62em) {
+  .zero-heading {
+    font-size: var(--fs-700);
+  }
+}
+
+.zero a {
+  display: inline-block;
+  font-size: var(--fs-100);
+  font-weight: 600;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+  color: var(--clr-primary-400);
+  background-color: #fff;
+  padding: 1.3em 2.1em;
+  border-radius: 3rem;
+  margin-top: 2em;
+  transition: background .3s ease-in-out;
+}
+
+.zero a:hover,
+.zero a:focus {
+  color: #fff;
+  background-color: var(--clr-primary-400);
+}
+
+@media only screen and (min-width: 62em) {
+  .zero a {
+    font-size: var(--fs-200);
   }
 }
