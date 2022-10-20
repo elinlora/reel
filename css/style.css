@@ -152,14 +152,11 @@ nav ul {
   gap: 2em;
 }
 
-nav ul li {
-  text-decoration: none;
-}
-
 nav ul li a {
   color: var(--clr-primary-400);
   font-weight: 500;
   font-size: var(--fs-400);
+  text-decoration: none;
 }
 
 nav ul li a:hover,
