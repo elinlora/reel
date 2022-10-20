@@ -855,7 +855,7 @@ nav ul li a i {
 
 @media only screen and (min-width: 62em) {
   .zero {
-    padding: 4.5em 0;
+    padding: 6em 0;
   }
 }
 
@@ -894,6 +894,86 @@ nav ul li a i {
 
 @media only screen and (min-width: 62em) {
   .zero a {
+    font-size: var(--fs-200);
+  }
+}
+
+.paper-saved {
+  background-image: url('/img/content-banner-2.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 3em 1em;
+}
+
+@media only screen and (min-width: 62em) {
+  .paper-saved {
+    padding: 7em 0;
+  }
+}
+
+.paper-saved-title {
+  font-size: var(--fs-600);
+  font-weight: 600;
+}
+
+@media only screen and (min-width: 62em) {
+  .paper-saved-title {
+    font-size: var(--fs-700);
+  }
+}
+
+.paper-saved-body {
+  font-size: var(--fs-200);
+  font-weight: 500;
+  line-height: 1.5;
+  margin-top: 1.2em;
+}
+
+@media only screen and (min-width: 48em) {
+  .paper-saved-body {
+    width: 36rem;
+    margin: 1.2em auto 0;
+  }
+}
+
+.paper-saved .btn {
+  margin: 1.5em 0 3em;
+}
+
+@media only screen and (min-width: 62em) {
+  .paper-saved .btn {
+    margin: 2.4em 0 4.5em;
+  }
+}
+
+.border {
+  width: 9rem;
+  margin: 0 auto;
+  border-top: 2.1px solid var(--clr-primary-400);
+}
+
+.paper-saved-counter h2 {
+  font-size: var(--fs-700);
+  margin-top: .6em;
+}
+
+@media only screen and (min-width: 62em) {
+  .paper-saved-counter h2 {
+    font-size: var(--fs-800);
+  }
+}
+
+.paper-saved-counter p {
+  font-size: var(--fs-100);
+  font-weight: 600;
+  letter-spacing: 1.3px; 
+  text-transform: uppercase;
+  margin-top: .5em;
+}
+
+@media only screen and (min-width: 62em) {
+  .paper-saved-counter p {
     font-size: var(--fs-200);
   }
 }
