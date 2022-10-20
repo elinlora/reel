@@ -659,6 +659,23 @@ nav ul li a i {
   background-color: var(--clr-neutral-400);
 }
 
+@media only screen and (min-width: 62em) {
+  .customer-reviews {
+    padding: 4.5em 0;
+  }
+}
+
+.customer-reviews .container {
+  max-width: 70rem;
+}
+
+@media only screen and (min-width: 62em) {
+  .customer-reviews .container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 .review-card {
   height: 24rem;
   width: 24rem;
@@ -666,6 +683,16 @@ nav ul li a i {
   margin: 0 auto;
   position: relative;
   background-color: #fff;
+}
+
+@media only screen and (min-width: 62em) {
+  .review-card {
+    order: 2;
+    height: 34rem;
+    width: 34rem;
+    margin: unset;
+    margin-left: auto;
+  }
 }
 
 .review-card-content {
@@ -716,6 +743,13 @@ nav ul li a i {
 
 .review-extra {
   margin-top: 4.5em;
+}
+
+@media only screen and (min-width: 62em) {
+  .review-extra {
+    width: 40%;
+    order: 1;
+  }  
 }
 
 .review-rating {
