@@ -1063,6 +1063,7 @@ footer {
 @media only screen and (min-width: 62em) {
   footer {
     text-align: unset;
+    padding: 4.5em 0 2.4em;
   }
   .footer-top .container {
     display: grid;
